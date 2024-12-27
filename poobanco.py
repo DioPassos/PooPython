@@ -40,7 +40,7 @@ class ContaBanco:
         return f"ContaBanco(nome={self.nome}, cpf={self.cpf}, endereco={self.endereco}, idade={self.idade}, saldo=R${self.saldo:.2f})"
 
 # Criando uma instância de ContaBanco
-conta = ContaBanco("João Silva", "123.456.789-00", "Rua Sem Nome, 123", 30)
+conta = ContaBanco()
 
 # Chamando métodos da classe
 print(conta.depositar(1000))
