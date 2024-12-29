@@ -49,6 +49,6 @@ print(conta.sacar(200))
 print(conta.ver_saldo())
 print(conta.ver_extrato())
 print(conta)
-print(ContaBanco)
+
 
 
