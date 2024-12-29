@@ -39,16 +39,18 @@ class ContaBanco:
     def __str__(self):
         return f"ContaBanco(nome={self.nome}, cpf={self.cpf}, endereco={self.endereco}, idade={self.idade}, saldo=R${self.saldo:.2f})"
 
-# Criando uma instância de ContaBanco
-conta = ContaBanco()
+class Cadastro(ContaBanco):
+    def __init__(self, nome, cpf, endereco, idade):
+        super().__init__(nome, cpf, endereco, idade)
 
-# Chamando métodos da classe
-print(conta.depositar(1000))
-print(conta.ver_saldo())
-print(conta.sacar(200))
-print(conta.ver_saldo())
-print(conta.ver_extrato())
-print(conta)
+    
+    def cadastrar(self):
+        return f"Cadastro:  nome = {self.nome}  cpf = {self.cpf}, endereço =  rua {self.endereco}, idade= {self.idade} anos"
+
+
+
+    
+
 
 
 
