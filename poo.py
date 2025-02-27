@@ -22,8 +22,6 @@ cadastro1 = Cadastro(12,"eduardo","rua Ubiratan","040")
 
     
     
-
- 
 # Chamando um método da classe
 print(pessoa1.perguntar())
 print(pessoa2.perguntar())

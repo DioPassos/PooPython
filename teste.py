@@ -1,5 +1,9 @@
+class Pessoa:
+    def __init__(self,nome,idade):
+        self.nome = nome
+        self.idade = idade
 
-
+ano_atual= 2000
 quantidade = 10
 produto = 700
 
@@ -13,3 +17,7 @@ if valor > meta:
 else:
     print("não bateu a meta")
 
+
+ 
+
+    
